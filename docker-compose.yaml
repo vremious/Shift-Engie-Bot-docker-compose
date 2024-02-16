@@ -1,0 +1,9 @@
+services:
+  web:
+    image: denisemelyanov/smenobot:latest
+    container_name: smenobot
+    volumes:
+     # - static_volume:/app/static
+      - ./tg.db:/app/tg.db
+      - ./.env:/app/.env
+
