@@ -1,6 +1,6 @@
 services:
   web:
-    image: denisemelyanov/smenobot:1.2
+    image: denisemelyanov/smenobot:latest
     container_name: smenobot
     volumes:
      # - static_volume:/app/static
